@@ -1,0 +1,27 @@
+<!-- <body> -->
+<!-- <div> -->
+  <div class="container">
+    <h1 class="title">!!!בואו לנהל את האירוע שלכם</h1>  
+
+
+    <form [formGroup]="loginForm" class="login">
+      <div class="form-group">
+        <input type="email" [ngClass]="{'invalidInput':!loginForm.controls['email'].valid&&loginForm.controls['email'].dirty}" class="form-control"
+          id="email" formControlName="email">
+        <div class="invalidField" *ngIf="!loginForm.controls['email'].valid&&loginForm.controls['email'].dirty">שדה זה הינו
+          שדה חובה</div>
+        <label for="email" class="form-group">דוא"ל</label>
+      </div>
+      <div class="form-group">
+        <input type="text" [ngClass]="{'invalidInput':!loginForm.controls['password'].valid&&loginForm.controls['password'].dirty}"
+          class="form-control" id="password" formControlName="password">
+        <div class="invalidField" *ngIf="!loginForm.controls['password'].valid&&loginForm.controls['password'].dirty">שדה
+          זה הינו שדה חובה</div>
+        <label class="form-group" for="password">סיסמא</label>
+      </div>
+      <button class="loginButton" (click)="login()" [disabled]="loginForm.invalid">כניסה</button>
+      <button class="bright-button" routerLink="/new-user">משתמש חדש</button>
+    </form>
+  </div>
+<!-- </div> -->
+<!-- </body> -->

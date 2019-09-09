@@ -1,0 +1,73 @@
+<div class="container-flex">
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>תואר לפני</th>
+            <th>שם פרטי</th>
+            <th>שם משפחה</th>
+            <th>תואר אחרי</th>
+            <th>דוא"ל</th>
+            <th>קטגוריה</th>
+            <th>אישר?</th>
+            <th>מס' גברים</th>
+            <th>מס' נשים</th>             
+        </tr>
+    </thead>
+    <tbody *ngIf="guestsDetailsList">
+        <tr *ngFor="let guest of guestsDetailsList; let i=index">
+            <td> {{guest.degreeBefore}}</td>
+            <td> {{guest.firstName}} </td>
+            <td> {{guest.lastName}}</td>
+            <td> {{guest.degreeAfter}}</td>
+            <td> {{guest.email}}</td>
+            <td> {{guest.category}} </td>
+            <td class="checkboxInput"><input type="checkbox" [checked]="guest.statusApproval"/> </td>
+            <td><input class="numberInput form-control" type="number"  value="{{guest.numOfMale}}" [(ngModel)]=guestsDetailsList[i].numOfMale/> </td>
+            <td><input class="numberInput form-control" type="number" value="{{guest.numOfFemale}}" [(ngModel)]=guestsDetailsList[i].numOfFemale/></td>
+        </tr>
+    </tbody> 
+    <div class="message-div" *ngIf="guestsDetailsList==null">
+        <span class="message-span">אין לך מוזמנים</span>
+    </div>
+</table>
+
+<form class="form-new-guest" [formGroup]="guestForm"> 
+    <h3>אורח חדש</h3>   
+    <div class="form-group">
+        <input type="text" class="form-control" id="eventDate" formControlName="degreeBefore">
+        <label class="form-group">תואר לפני</label>
+    </div>
+    <div class="form-group">  
+      <input type="text" class="form-control" id="eventDate" formControlName="degreeAfter">
+      <label class="form-group">תואר אחרי</label>
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control" formControlName="firstName">
+      <label class="form-group">שם פרטי</label>
+    </div>
+    <div class="form-group"> 
+      <input type="text" class="form-control" [ngClass]="{'invalidInput':!guestForm.controls['lastName'].valid&&guestForm.controls['lastName'].dirty}" formControlName="lastName">
+      <div class="invalidField" *ngIf="!guestForm.controls['lastName'].valid&&guestForm.controls['lastName'].dirty">שדה זה הינו שדה חובה</div>
+      <label class="form-group">שם משפחה</label>
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" [ngClass]="{'invalidInput':!guestForm.controls['email'].valid&&guestForm.controls['email'].dirty}" formControlName="email">
+        <div class="invalidField" *ngIf="!guestForm.controls['email'].valid&&guestForm.controls['email'].dirty">שדה זה הינו שדה חובה</div>
+
+        <label class="form-group">דוא"ל</label>
+      </div>
+      <div class="form-group"> 
+        <select class="form-control" [ngClass]="{'invalidInput':!guestForm.controls['categoryCode'].valid&&guestForm.controls['categoryCode'].dirty}" formControlName="categoryCode">
+            <option *ngFor="let c of categoriesList" [ngValue]="c.id">{{c?.description}}</option>
+         </select>
+         <div class="invalidField" *ngIf="!guestForm.controls['categoryCode'].valid&&guestForm.controls['categoryCode'].dirty">שדה זה הינו שדה חובה</div>
+        <label class="form-group">קטגוריה</label>
+    </div>
+
+    <button (click)="addGuest()" [disabled]="guestForm.invalid">שמור אורח</button>
+
+  </form>
+
+</div>
+<button (click)="saveChanges()">שמור שינויים</button>
+<button (click)="sendInvitations()" class="bright-button">שלח הזמנות</button>

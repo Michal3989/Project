@@ -1,0 +1,37 @@
+<body>
+<div class="container">
+  <form [formGroup]="registrationForm"> 
+      <div class="form-group">
+          <input class="form-control"  type="text" [ngClass]="{'invalidInput':!registrationForm.controls['firstName'].valid&&registrationForm.controls['firstName'].dirty}" placeholder="נא הכנס שם פרטי" formControlName="firstName" name="firstName" id="firstName">
+          <div class="invalidField" *ngIf="!registrationForm.controls['firstName'].valid&&registrationForm.controls['firstName'].dirty">שדה זה הינו שדה חובה</div>
+          <label for="firstName">שם פרטי</label>
+      </div>
+      <div class="form-group">
+          <input  type="text" [ngClass]="{'invalidInput':!registrationForm.controls['lastName'].valid&&registrationForm.controls['lastName'].dirty}" placeholder="נא הכנס שם משפחה" formControlName="lastName" class="form-control"  name="lastName" id="lastName">
+          <div class="invalidField" *ngIf="!registrationForm.controls['lastName'].valid&&registrationForm.controls['lastName'].dirty">שדה זה הינו שדה חובה</div>
+          <label for="lastName">שם משפחה</label>
+      </div>
+      <div class="form-group">
+          <input type="number" [ngClass]="{'invalidInput':!registrationForm.controls['phone'].valid&&registrationForm.controls['phone'].dirty}" placeholder="נא הכנס מספר טלפון" formControlName="phone" class="form-control"  name="phone" id="phone">
+          <div class="invalidField" *ngIf="!registrationForm.controls['phone'].valid&&registrationForm.controls['phone'].dirty">שדה זה הינו שדה חובה</div>
+          <label for="phone">טלפון</label>
+      </div>
+      <div class="form-group">
+          <input type="text" [ngClass]="{'invalidInput':!registrationForm.controls['email'].valid&&registrationForm.controls['email'].dirty}" placeholder="נא הכנס כתובת מייל" formControlName="email" class="form-control"  name="email" id="email">
+          <div class="invalidField" *ngIf="!registrationForm.controls['email'].valid&&registrationForm.controls['email'].dirty">שדה זה הינו שדה חובה</div>
+          <label for="email">דוא"ל</label>
+      </div>
+      <div class="form-group">
+          <input type="text" [ngClass]="{'invalidInput':!registrationForm.controls['password'].valid&&registrationForm.controls['password'].dirty}" placeholder="נא הכנס סיסמא" formControlName="password" class="form-control"  name="password" id="password">
+          <div class="invalidField" *ngIf="!registrationForm.controls['password'].valid&&registrationForm.controls['password'].dirty">שדה זה הינו שדה חובה</div>
+          <label for="password">סיסמא</label>
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="נא אמת סיסמא" class="form-control" name="confirmPassword" id="confirmPassword">
+        <label for="confirmPassword">אימות סיסמא</label>
+    </div>
+      <button type="submit" (click)="saveOwnerDetails()"  [disabled]="registrationForm.invalid">צור אירוע חדש ללא תשלום</button>
+  
+  </form> 
+</div>
+</body>

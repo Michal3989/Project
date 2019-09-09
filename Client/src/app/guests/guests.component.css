@@ -1,0 +1,58 @@
+.invalidField{
+    color:red;
+}
+.invalidInput{
+    border-color:red;
+}
+.container-flex {
+    direction: rtl;
+    height:50%;
+    width:100%;
+    display: flex;
+}
+
+table{
+    width: 70%;
+   
+}
+  table ,tr td{
+      border:1px solid palevioletred;
+  }
+  tbody {
+      display:block;
+      height:550px;
+      overflow:auto;
+  }
+  thead, tbody tr {
+      display:table;
+      width:100%;
+      table-layout:fixed;/* even columns width , fix width of table too*/
+  }
+  thead {
+      width: calc( 100% - 1em )/* scrollbar is average 1em/16px width, remove it from thead width */
+  }
+  /* table {
+      width:400px;
+  } */
+
+.form-new-guest{
+
+padding-left: 5%;
+padding-right: 5%;
+    width: 30%;
+
+}
+.numberInput{
+    width: 60%;
+    background-color: rgb(245, 217, 222);
+}
+.checkboxInput{
+    text-align: center;
+}
+.message-div{
+    text-align: center ;
+}
+.message-span{
+    font-size: 700%;
+    color: palevioletred;
+}

@@ -1,0 +1,72 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\DAL\obj\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\DAL\obj\Debug\DAL.pdb
+M:\פרויקט\ProjectExample\DAL\bin\Debug\DAL.dll.config
+M:\פרויקט\ProjectExample\DAL\bin\Debug\DAL.dll
+M:\פרויקט\ProjectExample\DAL\bin\Debug\DAL.pdb
+M:\פרויקט\ProjectExample\DAL\bin\Debug\AutoMapper.dll
+M:\פרויקט\ProjectExample\DAL\bin\Debug\Common.dll
+M:\פרויקט\ProjectExample\DAL\bin\Debug\Entities.dll
+M:\פרויקט\ProjectExample\DAL\bin\Debug\EntityFramework.dll
+M:\פרויקט\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.dll
+M:\פרויקט\ProjectExample\DAL\bin\Debug\Common.pdb
+M:\פרויקט\ProjectExample\DAL\bin\Debug\Entities.pdb
+M:\פרויקט\ProjectExample\DAL\bin\Debug\Entities.dll.config
+M:\פרויקט\ProjectExample\DAL\bin\Debug\AutoMapper.xml
+M:\פרויקט\ProjectExample\DAL\bin\Debug\EntityFramework.xml
+M:\פרויקט\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.xml
+M:\פרויקט\ProjectExample\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+M:\פרויקט\ProjectExample\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+M:\פרויקט\ProjectExample\DAL\obj\Debug\DAL.csproj.CopyComplete
+M:\פרויקט\ProjectExample\DAL\obj\Debug\DAL.dll
+M:\פרויקט\ProjectExample\DAL\obj\Debug\DAL.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\DAL.dll.config
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\DAL.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\DAL.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\AutoMapper.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\Common.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\Entities.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\EntityFramework.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\Common.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\Entities.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\Entities.dll.config
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\AutoMapper.xml
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\EntityFramework.xml
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\obj\Debug\DAL.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="container-flex">
+    <div class="eventList">
+      <div *ngFor="let event of eventList">
+        <p (click)="changeEvent(event)"> {{eventService.convertEventCodeToEventDescription(event.eventTypeCode)}} of {{event.name}}</p>
+      </div>
+    </div>
+    <form [formGroup]="eventDetailsForm" class="eventDetailsForm">
+      <div class="form-group">
+        <select class="form-control" [ngClass]="{'invalidInput':!eventDetailsForm.controls['date'].valid&&eventDetailsForm.controls['date'].dirty}"
+          formControlName="eventTypeCode" id="selectType">
+          <option *ngFor="let t of commonService.eventTypes" [ngValue]="t.id">{{t?.description}}</option>
+        </select>
+        <div class="invalidField" *ngIf="!eventDetailsForm.controls['eventTypeCode'].valid&&eventDetailsForm.controls['eventTypeCode'].dirty">שדה
+          זה הינו שדה חובה</div>
+        <label for="selectType" class="form-group">סוג האירוע</label>
+      </div>
+      <div class="form-group">
+
+        <input type="date" class="form-control" [ngClass]="{'invalidInput':!eventDetailsForm.controls['date'].valid&&eventDetailsForm.controls['date'].dirty}"
+          id="eventDate" formControlName="date" name="eventDate">
+        <div class="invalidField" *ngIf="!eventDetailsForm.controls['date'].valid&&eventDetailsForm.controls['date'].dirty">שדה
+          זה הינו שדה חובה</div>
+        <label for="eventDate" class="form-group">תאריך האירוע</label>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" [ngClass]="{'invalidInput':!eventDetailsForm.controls['name'].valid&&eventDetailsForm.controls['name'].dirty}"
+          id="name" formControlName="name" required name="name">
+        <div class="invalidField" *ngIf="!eventDetailsForm.controls['name'].valid&&eventDetailsForm.controls['name'].dirty">שדה
+          זה הינו שדה חובה</div>
+        <label class="form-group" for="name">שם החוגגים</label>
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control" id="freeText" formControlName="freeText" name="freeText">
+        <label class="form-group" for="freeText">טקסט אישי</label>
+      </div>
+
+      <div><img style="width:20%" *ngIf="commonService.currentEvent.picture!=null " src="http://localhost:52718/images/{{commonService.currentEvent.picture}}"></div>
+      <div><img style="width:20%" [src]="url" *ngIf="url"/></div>
+      <div class="buttons-flex">
+        <button (click)="confirmEvent()" [disabled]="eventDetailsForm.invalid || flagFile==false && commonService.currentEvent.picture==null"> שמור אירוע</button>
+        <button class="newEventButton bright-button" (click)="createNewEvent()">צור אירוע חדש</button>
+      </div>
+    </form>
+    <div *ngIf="commonService.currentEvent.picture==null && myFile==null">
+    <label class="label-of-file-new-upload"> בחר תמונה<input id=file type="file" class="upload-file" (change)="changeFile($event)"></label>
+    </div>
+    <div *ngIf="commonService.currentEvent.picture!=null || myFile!=null">
+        
+    <label class="label-of-file">בחר תמונה חדשה<input id=file type="file" class="upload-file" (change)="changeFile($event)"></label> 
+    
+    </div>
+  </div>
+
+
+
+</div>

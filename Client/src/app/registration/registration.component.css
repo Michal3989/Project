@@ -1,0 +1,41 @@
+.container{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.form-group{
+width: 30%;
+left: 100; 
+
+}
+.invalidField{
+    color:red;
+}
+.invalidInput{
+    border-color:red;
+}
+body{
+    background: url("assets/images/BackgroundLogo.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } 
+  input{
+    background: transparent;
+    border:black;
+
+    }
+  
+    .menuText {
+        font-family: 'IdolwildRegular' , Verdana, Helvetica, Sans-Serif;
+        font-size: larger;
+        color: #ffffff;
+        position: relative;
+        vertical-align: middle;
+        text-align: center;
+        top: 40%;
+    }

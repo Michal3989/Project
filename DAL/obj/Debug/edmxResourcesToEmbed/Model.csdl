@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DBContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Tbl_arriving" EntityType="Model.Tbl_arriving" />
+    <EntitySet Name="Tbl_category" EntityType="Model.Tbl_category" />
+    <EntitySet Name="Tbl_event" EntityType="Model.Tbl_event" />
+    <EntitySet Name="Tbl_event_owner_" EntityType="Model.Tbl_event_owner_" />
+    <EntitySet Name="Tbl_event_type" EntityType="Model.Tbl_event_type" />
+    <EntitySet Name="Tbl_guests" EntityType="Model.Tbl_guests" />
+    <EntitySet Name="Tbl_table" EntityType="Model.Tbl_table" />
+    <AssociationSet Name="FK_Tbl_arriving_Tbl_guests" Association="Model.FK_Tbl_arriving_Tbl_guests">
+      <End Role="Tbl_guests" EntitySet="Tbl_guests" />
+      <End Role="Tbl_arriving" EntitySet="Tbl_arriving" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_arriving_Tbl_table" Association="Model.FK_Tbl_arriving_Tbl_table">
+      <End Role="Tbl_table" EntitySet="Tbl_table" />
+      <End Role="Tbl_arriving" EntitySet="Tbl_arriving" />
+    </AssociationSet>
+    <AssociationSet Name="FK_guest_invitees_category" Association="Model.FK_guest_invitees_category">
+      <End Role="Tbl_category" EntitySet="Tbl_category" />
+      <End Role="Tbl_guests" EntitySet="Tbl_guests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tbl_table_Tbl_category" Association="Model.FK_Tbl_table_Tbl_category">
+      <End Role="Tbl_category" EntitySet="Tbl_category" />
+      <End Role="Tbl_table" EntitySet="Tbl_table" />
+    </AssociationSet>
+    <AssociationSet Name="FK_event_event_owner_" Association="Model.FK_event_event_owner_">
+      <End Role="Tbl_event_owner_" EntitySet="Tbl_event_owner_" />
+      <End Role="Tbl_event" EntitySet="Tbl_event" />
+    </AssociationSet>
+    <AssociationSet Name="FK_event_event_type" Association="Model.FK_event_event_type">
+      <End Role="Tbl_event_type" EntitySet="Tbl_event_type" />
+      <End Role="Tbl_event" EntitySet="Tbl_event" />
+    </AssociationSet>
+    <AssociationSet Name="FK_guest_event" Association="Model.FK_guest_event">
+      <End Role="Tbl_event" EntitySet="Tbl_event" />
+      <End Role="Tbl_guests" EntitySet="Tbl_guests" />
+    </AssociationSet>
+    <AssociationSet Name="FK_table_event" Association="Model.FK_table_event">
+      <End Role="Tbl_event" EntitySet="Tbl_event" />
+      <End Role="Tbl_table" EntitySet="Tbl_table" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Tbl_arriving">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="guest_id" Type="Int32" Nullable="false" />
+    <Property Name="male" Type="Boolean" Nullable="false" />
+    <Property Name="table_id" Type="Int32" />
+    <NavigationProperty Name="Tbl_guests" Relationship="Model.FK_Tbl_arriving_Tbl_guests" FromRole="Tbl_arriving" ToRole="Tbl_guests" />
+    <NavigationProperty Name="Tbl_table" Relationship="Model.FK_Tbl_arriving_Tbl_table" FromRole="Tbl_arriving" ToRole="Tbl_table" />
+  </EntityType>
+  <EntityType Name="Tbl_category">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="type_id" Type="Byte" Nullable="false" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Tbl_guests" Relationship="Model.FK_guest_invitees_category" FromRole="Tbl_category" ToRole="Tbl_guests" />
+    <NavigationProperty Name="Tbl_table" Relationship="Model.FK_Tbl_table_Tbl_category" FromRole="Tbl_category" ToRole="Tbl_table" />
+  </EntityType>
+  <EntityType Name="Tbl_event">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_event_owner" Type="Int32" Nullable="false" />
+    <Property Name="event_type_code" Type="Byte" Nullable="false" />
+    <Property Name="date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="picture" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="free_text" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Tbl_event_owner_" Relationship="Model.FK_event_event_owner_" FromRole="Tbl_event" ToRole="Tbl_event_owner_" />
+    <NavigationProperty Name="Tbl_event_type" Relationship="Model.FK_event_event_type" FromRole="Tbl_event" ToRole="Tbl_event_type" />
+    <NavigationProperty Name="Tbl_guests" Relationship="Model.FK_guest_event" FromRole="Tbl_event" ToRole="Tbl_guests" />
+    <NavigationProperty Name="Tbl_table" Relationship="Model.FK_table_event" FromRole="Tbl_event" ToRole="Tbl_table" />
+  </EntityType>
+  <EntityType Name="Tbl_event_owner_">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="first_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="last_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="phone" Type="Int32" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Tbl_event" Relationship="Model.FK_event_event_owner_" FromRole="Tbl_event_owner_" ToRole="Tbl_event" />
+  </EntityType>
+  <EntityType Name="Tbl_event_type">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Tbl_event" Relationship="Model.FK_event_event_type" FromRole="Tbl_event_type" ToRole="Tbl_event" />
+  </EntityType>
+  <EntityType Name="Tbl_guests">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_event" Type="Int32" Nullable="false" />
+    <Property Name="degree_before" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="degree_after" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="first_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="last_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="category_code" Type="Byte" Nullable="false" />
+    <NavigationProperty Name="Tbl_arriving" Relationship="Model.FK_Tbl_arriving_Tbl_guests" FromRole="Tbl_guests" ToRole="Tbl_arriving" />
+    <NavigationProperty Name="Tbl_category" Relationship="Model.FK_guest_invitees_category" FromRole="Tbl_guests" ToRole="Tbl_category" />
+    <NavigationProperty Name="Tbl_event" Relationship="Model.FK_guest_event" FromRole="Tbl_guests" ToRole="Tbl_event" />
+  </EntityType>
+  <EntityType Name="Tbl_table">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="event_id" Type="Int32" Nullable="false" />
+    <Property Name="num_of_people" Type="Byte" Nullable="false" />
+    <Property Name="male" Type="Boolean" Nullable="false" />
+    <Property Name="title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="category_code" Type="Byte" />
+    <NavigationProperty Name="Tbl_arriving" Relationship="Model.FK_Tbl_arriving_Tbl_table" FromRole="Tbl_table" ToRole="Tbl_arriving" />
+    <NavigationProperty Name="Tbl_category" Relationship="Model.FK_Tbl_table_Tbl_category" FromRole="Tbl_table" ToRole="Tbl_category" />
+    <NavigationProperty Name="Tbl_event" Relationship="Model.FK_table_event" FromRole="Tbl_table" ToRole="Tbl_event" />
+  </EntityType>
+  <Association Name="FK_Tbl_arriving_Tbl_guests">
+    <End Type="Model.Tbl_guests" Role="Tbl_guests" Multiplicity="1" />
+    <End Type="Model.Tbl_arriving" Role="Tbl_arriving" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_guests">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tbl_arriving">
+        <PropertyRef Name="guest_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_arriving_Tbl_table">
+    <End Type="Model.Tbl_table" Role="Tbl_table" Multiplicity="0..1" />
+    <End Type="Model.Tbl_arriving" Role="Tbl_arriving" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_table">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tbl_arriving">
+        <PropertyRef Name="table_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_guest_invitees_category">
+    <End Type="Model.Tbl_category" Role="Tbl_category" Multiplicity="1" />
+    <End Type="Model.Tbl_guests" Role="Tbl_guests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_category">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tbl_guests">
+        <PropertyRef Name="category_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tbl_table_Tbl_category">
+    <End Type="Model.Tbl_category" Role="Tbl_category" Multiplicity="0..1" />
+    <End Type="Model.Tbl_table" Role="Tbl_table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_category">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tbl_table">
+        <PropertyRef Name="category_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_event_event_owner_">
+    <End Type="Model.Tbl_event_owner_" Role="Tbl_event_owner_" Multiplicity="1" />
+    <End Type="Model.Tbl_event" Role="Tbl_event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_event_owner_">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tbl_event">
+        <PropertyRef Name="id_event_owner" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_event_event_type">
+    <End Type="Model.Tbl_event_type" Role="Tbl_event_type" Multiplicity="1" />
+    <End Type="Model.Tbl_event" Role="Tbl_event" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_event_type">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tbl_event">
+        <PropertyRef Name="event_type_code" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_guest_event">
+    <End Type="Model.Tbl_event" Role="Tbl_event" Multiplicity="1" />
+    <End Type="Model.Tbl_guests" Role="Tbl_guests" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_event">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tbl_guests">
+        <PropertyRef Name="id_event" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_table_event">
+    <End Type="Model.Tbl_event" Role="Tbl_event" Multiplicity="1" />
+    <End Type="Model.Tbl_table" Role="Tbl_table" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tbl_event">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Tbl_table">
+        <PropertyRef Name="event_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

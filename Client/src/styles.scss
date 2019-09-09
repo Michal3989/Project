@@ -1,0 +1,139 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+
+.body-class {
+  text-align: right !important;
+  margin: 0px;
+  font-size: 1em !important;
+  text-align: right;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-image: url("assets/images/Background-medum.jpg"); 
+
+
+  background-repeat: no-repeat;  
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  }
+.logo{
+width: 40%;
+height: 10%;
+float: right;
+}
+  //side gutter 
+  
+  #gutter .ui-menu  {
+    width: auto !important;
+    margin: 0px !important;
+    border: none !important;
+    background-color:  #1B2B3B !important;
+  }
+    
+  #gutter .ui-state-active, body .ui-state-highlight {
+    background-color:  #00B68E !important;
+  }
+
+  #gutter .ui-menu li :hover  {
+    background-color:  rgb(102, 121, 141) !important;
+  }
+
+  #gutter .ui-menuitem-text {
+    color: white !important;
+  }
+  
+  #gutter .ui-menuitem-icon {
+    color: white !important;
+    font-size: large !important;
+  }
+  
+  #gutter .menu-selected {
+    background-color:  #00B68E !important;
+    color: #ffffff;
+  }
+
+  //panel
+
+ .ui-panel {
+    margin-top: 1em;
+    margin-bottom: 20px;
+  }
+
+ .ui-panel-titlebar {
+    --background-color: #2F8EE5 !important;
+    --color: white !important;
+  }
+
+  //dropdown
+
+  .ui-dropdown-item {
+    text-align: right !important;
+  }
+
+  //steps
+  .ui-steps .ui-steps-item {
+    float: right !important;
+}
+
+.ui-steps::before {
+  border: 2px solid #1B2B3B !important;
+}
+
+
+//menu
+
+.ui-tabmenuitem {
+  float: right !important;
+}
+
+.tab-view-class, .ui-tabview-nav, .ui-tabview,
+.ui-tabview-panels, .container {
+  background-color: transparent !important;
+}
+a{
+
+background-color: palevioletred;
+padding: 0%;
+}
+button{
+  background-color:rgb(214, 121, 152);
+	border: none;
+	border-radius: 6px;
+  color: white;
+  padding: 8px 15px;
+  /* text-decoration: none;
+  display: inline-block; */
+  font-size: 15px;
+  margin: 4px 2px;
+  /* cursor: pointer; */
+}
+.bright-button{
+  background-color: pink;
+}
+
+//loading animation:
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position:absolute;
+  top:30%;
+  left:50%;
+  z-index:9999; 
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.actionloader {
+  border-top: 16px solid  rgba(57, 69, 236, 0.904);
+
+}
+#cover {position: fixed; height: 100%; width: 100%; top:0; left: 0; background: #000; z-index:9998; 
+  font-size: 60px; text-align: center; padding-top: 200px;opacity: 0.5;
+}

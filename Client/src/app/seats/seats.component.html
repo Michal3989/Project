@@ -1,0 +1,39 @@
+
+<div  class="container">
+   <h2 class="form-group">:פרטי הישיבה באולם</h2>
+    <div id="male" class="form-group">
+        <h3 class="form-group"> :גברים</h3>  
+        <div *ngFor="let table of tableTypeList">        
+            <div *ngIf="table.male==true" class="form-group">
+                <input  type="number" [(ngModel)]="table.amount"  class="form-control"  name="amount" id="amount">
+                <label for="amount">מספר שולחנות</label>
+                <br/>
+                <input  type="number" [(ngModel)]="table.numOfPeople"  class="form-control"  name="numOfPeople" id="numOfPeople">
+                <label for="numOfPeople">מספר אנשים</label>
+            </div>
+        
+        </div>
+    <button id="btnMale" (click)="addTableType('male')">הוסף סוג שולחן</button>  
+    </div>
+
+    <div id="female" class="form-group">
+        <h3 class="form-group"> :נשים</h3>  
+        <div *ngFor="let table of tableTypeList">
+            
+             <div *ngIf="table.male==false" class="form-group">
+                    <input  type="number" [(ngModel)]="table.amount"  class="form-control"  name="amount" id="amount">
+                    <label for="amount">מספר שולחנות</label>
+                    <br/>
+                    <input  type="number" [(ngModel)]="table.numOfPeople"  class="form-control"  name="numOfPeople" id="numOfPeople">
+                    <label for="numOfPeople">מספר אנשים</label>
+            </div>
+            
+        </div>
+        <button id="btnMale" (click)="addTableType('female')">הוסף סוג שולחן</button>
+        
+    </div>
+     <button (click)="saveTables()">שמור</button> 
+
+</div>
+
+<button (click)="setSeating()" class="bright-button">הושבה</button>

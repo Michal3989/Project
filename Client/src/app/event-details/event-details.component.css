@@ -1,0 +1,109 @@
+.container{
+    width: 100%;
+    /* display: grid;
+	grid-template-columns: 1fr 2fr 3fr  1fr;
+	grid-template-rows: 2fr 3fr 2fr 1fr;
+    grid-template-areas:
+      ". . . ."
+	  ". eventDetailsForm eventDetailsForm ."
+	  ". eventList uploadFile ."
+	  ". newEventButton newEventButton ." */
+}
+.eventDetailsForm{
+  grid-area: eventDetailsForm;
+}
+.upload-file{
+  /* grid-area: uploadFile; */
+  display: none;
+}
+.label-of-file-new-upload{
+    display:inline-block;
+margin:20px;
+
+padding-top: 85px;
+padding-bottom: 85px;
+background-color:transparent;
+border:solid 3px rgb(252, 166, 180);
+border-radius: 6px;
+border-style: dashed;
+color:rgb(252, 166, 180);
+font-size: 250%;
+/*text-align: center;*/
+top: 80%;
+
+}
+
+.label-of-file{
+    display:inline-block;
+margin:20px;
+
+background-color:transparent;
+border:solid 3px rgb(252, 166, 180);
+border-radius: 6px;
+border-style: dashed;
+color:rgb(252, 166, 180);
+font-size: 150%;
+width: 40%;
+/*text-align: center;*/
+top: 200%;
+
+}
+body{
+    /* background-image: url("assets/images/BackgroundLogo.jpg");
+      height: 100vh;
+       background-size: 100% 100%;
+      background-attachment: fixed;  */
+/*       
+      background: url("assets/images/BackgroundLogo.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; */
+
+       
+
+
+  
+  } 
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-family: serif;
+    font-size: 38px;
+    font-family: 'Times New Roman';
+}
+
+.content {
+    margin: 100px;
+}
+
+.margin25 {
+    margin: 25px;
+}
+
+.upload {
+    cursor: pointer;
+}
+.invalidField{
+    color:red;
+}
+.invalidInput{
+    border-color:red;
+}
+
+
+
+.container-flex {
+    direction: rtl;
+    height:50%;
+    width:100%;
+    display: flex;
+}
+.eventList {
+    width:30%;
+}
+.eventDetailsForm {
+    width: 40%
+}

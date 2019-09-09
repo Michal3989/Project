@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="DBContext">
+    <EntitySetMapping Name="Tbl_arriving">
+      <EntityTypeMapping TypeName="Model.Tbl_arriving">
+        <MappingFragment StoreEntitySet="Tbl_arriving">
+          <ScalarProperty Name="table_id" ColumnName="table_id" />
+          <ScalarProperty Name="male" ColumnName="male" />
+          <ScalarProperty Name="guest_id" ColumnName="guest_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_category">
+      <EntityTypeMapping TypeName="Model.Tbl_category">
+        <MappingFragment StoreEntitySet="Tbl_category">
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="type_id" ColumnName="type_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_event">
+      <EntityTypeMapping TypeName="Model.Tbl_event">
+        <MappingFragment StoreEntitySet="Tbl_event">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="free_text" ColumnName="free_text" />
+          <ScalarProperty Name="picture" ColumnName="picture" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="event_type_code" ColumnName="event_type_code" />
+          <ScalarProperty Name="id_event_owner" ColumnName="id_event_owner" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_event_owner_">
+      <EntityTypeMapping TypeName="Model.Tbl_event_owner_">
+        <MappingFragment StoreEntitySet="Tbl_event_owner ">
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_event_type">
+      <EntityTypeMapping TypeName="Model.Tbl_event_type">
+        <MappingFragment StoreEntitySet="Tbl_event_type">
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_guests">
+      <EntityTypeMapping TypeName="Model.Tbl_guests">
+        <MappingFragment StoreEntitySet="Tbl_guests">
+          <ScalarProperty Name="category_code" ColumnName="category_code" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="first_name" ColumnName="first_name" />
+          <ScalarProperty Name="degree_after" ColumnName="degree_after" />
+          <ScalarProperty Name="degree_before" ColumnName="degree_before" />
+          <ScalarProperty Name="id_event" ColumnName="id_event" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_table">
+      <EntityTypeMapping TypeName="Model.Tbl_table">
+        <MappingFragment StoreEntitySet="Tbl_table">
+          <ScalarProperty Name="category_code" ColumnName="category_code" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="male" ColumnName="male" />
+          <ScalarProperty Name="num_of_people" ColumnName="num_of_people" />
+          <ScalarProperty Name="event_id" ColumnName="event_id" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

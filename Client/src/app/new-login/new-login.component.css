@@ -1,0 +1,29 @@
+
+.container{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   text-align: center;
+}
+.login{
+  
+  width: 30%;
+}
+.invalidField{
+	color:red;
+}
+.invalidInput{
+	border-color:red;
+}
+body{
+  background: url("assets/images/BackgroundLogo.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+}
+
+.title{
+  width: 30%;
+}

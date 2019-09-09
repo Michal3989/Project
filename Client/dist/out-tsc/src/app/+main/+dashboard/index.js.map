@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../../../src/app/+main/+dashboard/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,kBAAkB,EAAE,MAAM,uBAAuB,CAAC;AAG3D,cAAc,uBAAuB,CAAC;AAEtC,MAAM,CAAC,IAAM,oBAAoB,GAAE;IAC/B,kBAAkB;CACrB,CAAA;AAED,MAAM,CAAC,IAAM,gBAAgB,GAAW;IACpC;QACI,IAAI,EAAE,WAAW;QACjB,SAAS,EAAE,kBAAkB;KAChC;CAEJ,CAAA"}

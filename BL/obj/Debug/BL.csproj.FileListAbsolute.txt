@@ -1,0 +1,80 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\BL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\BL\obj\Debug\BL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\BL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\DAL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\DAL.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\DAL.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\BL\obj\Debug\BL.pdb
+M:\פרויקט\ProjectExample\BL\bin\Debug\BL.dll
+M:\פרויקט\ProjectExample\BL\bin\Debug\BL.pdb
+M:\פרויקט\ProjectExample\BL\bin\Debug\Common.dll
+M:\פרויקט\ProjectExample\BL\bin\Debug\DAL.dll
+M:\פרויקט\ProjectExample\BL\bin\Debug\Entities.dll
+M:\פרויקט\ProjectExample\BL\bin\Debug\AutoMapper.dll
+M:\פרויקט\ProjectExample\BL\bin\Debug\EntityFramework.dll
+M:\פרויקט\ProjectExample\BL\bin\Debug\EntityFramework.SqlServer.dll
+M:\פרויקט\ProjectExample\BL\bin\Debug\Common.pdb
+M:\פרויקט\ProjectExample\BL\bin\Debug\DAL.pdb
+M:\פרויקט\ProjectExample\BL\bin\Debug\DAL.dll.config
+M:\פרויקט\ProjectExample\BL\bin\Debug\Entities.pdb
+M:\פרויקט\ProjectExample\BL\bin\Debug\Entities.dll.config
+M:\פרויקט\ProjectExample\BL\bin\Debug\AutoMapper.xml
+M:\פרויקט\ProjectExample\BL\bin\Debug\EntityFramework.xml
+M:\פרויקט\ProjectExample\BL\bin\Debug\EntityFramework.SqlServer.xml
+M:\פרויקט\ProjectExample\BL\obj\Debug\BL.csprojAssemblyReference.cache
+M:\פרויקט\ProjectExample\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+M:\פרויקט\ProjectExample\BL\obj\Debug\BL.csproj.CopyComplete
+M:\פרויקט\ProjectExample\BL\obj\Debug\BL.dll
+M:\פרויקט\ProjectExample\BL\obj\Debug\BL.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\BL.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\BL.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\Common.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\DAL.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\Entities.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\AutoMapper.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\EntityFramework.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\EntityFramework.SqlServer.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\Common.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\DAL.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\DAL.dll.config
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\Entities.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\Entities.dll.config
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\AutoMapper.xml
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\EntityFramework.xml
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\bin\Debug\EntityFramework.SqlServer.xml
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\obj\Debug\BL.csprojAssemblyReference.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\obj\Debug\BL.csproj.CopyComplete
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\obj\Debug\BL.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\BL\obj\Debug\BL.pdb

@@ -1,0 +1,18 @@
+
+<div class="container">
+  <div class="invitation">
+    <div><img style="width:400px" *ngIf="eventPicture!=null" src="http://localhost:52718/images/{{eventPicture}}"></div>
+    <h3>:נא לאשר הגעה</h3>
+  </div>
+  <div class="confirm">
+    <div>
+      <label class="form-group">:מס' גברים</label>
+     <input type="number" [(ngModel)]="numOfMale" class="form-control">
+    </div>
+    <div>
+      <label class="form-group">:מס' נשים</label>
+      <input type="number" [(ngModel)]="numOfFemale" class="form-control">
+    </div>
+      <button (click)="confirm()">אשר הגעה</button>
+  </div>
+</div>

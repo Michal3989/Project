@@ -1,0 +1,47 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\Entities.dll.config
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\Entities.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.csproj.CopyComplete
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Entities\obj\Debug\Entities.pdb
+M:\פרויקט\ProjectExample\Entities\bin\Debug\Entities.dll.config
+M:\פרויקט\ProjectExample\Entities\bin\Debug\Entities.dll
+M:\פרויקט\ProjectExample\Entities\bin\Debug\Entities.pdb
+M:\פרויקט\ProjectExample\Entities\bin\Debug\EntityFramework.dll
+M:\פרויקט\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.dll
+M:\פרויקט\ProjectExample\Entities\bin\Debug\EntityFramework.xml
+M:\פרויקט\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.xml
+M:\פרויקט\ProjectExample\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+M:\פרויקט\ProjectExample\Entities\obj\Debug\Entities.csproj.CopyComplete
+M:\פרויקט\ProjectExample\Entities\obj\Debug\Entities.dll
+M:\פרויקט\ProjectExample\Entities\obj\Debug\Entities.pdb
+M:\פרויקט\ProjectExample\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\bin\Debug\Entities.dll.config
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\bin\Debug\Entities.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\bin\Debug\Entities.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\bin\Debug\EntityFramework.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\bin\Debug\EntityFramework.xml
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\obj\Debug\Entities.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Entities\obj\Debug\Entities.pdb

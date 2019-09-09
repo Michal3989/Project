@@ -1,0 +1,23 @@
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectTemplate\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\bin\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\bin\Debug\Common.pdb
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\obj\Debug\Common.dll
+D:\mby-tfs\MatchMakerTF\ProjectExample\Common\obj\Debug\Common.pdb
+M:\פרויקט\ProjectExample\Common\bin\Debug\Common.dll
+M:\פרויקט\ProjectExample\Common\bin\Debug\Common.pdb
+M:\פרויקט\ProjectExample\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+M:\פרויקט\ProjectExample\Common\obj\Debug\Common.dll
+M:\פרויקט\ProjectExample\Common\obj\Debug\Common.pdb
+M:\פרויקט\ProjectExample\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Common\bin\Debug\Common.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Common\bin\Debug\Common.pdb
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Common\obj\Debug\Common.dll
+C:\d\המסמכים שליD\אפרת\הנדסאים יד\M\הנדסאים יד\פרויקט\ProjectExample\Common\obj\Debug\Common.pdb
